@@ -306,10 +306,13 @@
       for their help on data collection and processing. Without their efforts, we cannot finish this project on time.
     </div>
     <br>
+    <br>
+
     <!-- -->
 
-    <div style="text-align: center;color: #888;opacity:0.85">
-      <br>- Page visits: <span id="result1"></span> -
+    <div class="section">
+
+      <script type='text/javascript' id='clustrmaps' src="./CoralSCOP_files/map_v2.js?cl=ffffff&w=300&t=m&d=OPnRRmGk9XCI_raVGJ4xYln7-CxhxiSY3HiGsFRjcAY"></script>
     </div>
     <br>
 
@@ -359,17 +362,4 @@
         content: attr(data-content);
       }
     </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration>
-    <script type="text/javascript">
-      if (localStorage.pagecount) {
-          localStorage.pagecount = Number(localStorage.pagecount) + 1;
-      } else {
-          localStorage.pagecount = 1;
-      }
-      document.getElementById("result1").innerHTML = localStorage.pagecount;
-
-      //get year
-      var myDate = new Date();
-      var year = myDate.getFullYear();
-      document.getElementById('year').innerHTML = year;
-    </script>
     </html>
